@@ -318,6 +318,16 @@ body {
   display: none;
 }
 
+@media screen and (max-width: 960px) {
+  .title {
+    display: block;
+  }
+
+  .title-main {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .ea-header-image {
     width: 85%;
