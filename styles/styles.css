@@ -78,6 +78,10 @@ body {
   font-weight: bold;
 }
 
+.register-btn:hover {
+  color: #eb7e23;
+}
+
 .scratched-img {
   position: absolute;
   top: 0;
