@@ -213,6 +213,12 @@ body {
 
 .register-btn-2 {
   background: #eb7e23;
+  color: #fff;
+  font-weight: bold;
+}
+
+.register-btn-2:hover {
+  color: #284d9e;
 }
 
 /* Organizer and Partners Section */
