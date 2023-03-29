@@ -52,7 +52,7 @@ body {
 /* UEP Section */
 
 .uep-section {
-  padding: 150px 200px;
+  padding: 200px 200px;
   text-align: center;
   position: relative;
 }
@@ -185,8 +185,8 @@ body {
 }
 
 .speaker-card img {
-  width: 100%;
-  height: 100%;
+  width: 75%;
+  height: 75%;
   object-fit: contain;
 }
 
@@ -237,6 +237,20 @@ body {
   font-weight: 400;
 }
 
+.tangaza img {
+  width: 100%;
+  height: 100%;
+}
+
+.yyFoundation img {
+  width: 350px;
+  height: auto;
+}
+
+.ml {
+  margin-left: 7rem;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1536px) {
@@ -280,11 +294,24 @@ body {
   .cta-section {
     padding: 50px 150px;
   }
+
+  .ml {
+    margin-left: 5rem;
+  }
+
+  .yyFoundation img {
+    width: 250px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 1280px) {
   .speaker-card h5 {
     font-size: 20px;
+  }
+
+  .ml {
+    margin-left: 4rem;
   }
 }
 
@@ -312,6 +339,15 @@ body {
   .organised-and-partner {
     padding: 50px 50px;
   }
+
+  .ml {
+    margin-left: 3rem;
+  }
+
+  .yyFoundation img {
+    width: 200px;
+    height: auto;
+  }
 }
 
 .title {
@@ -325,6 +361,26 @@ body {
 
   .title-main {
     display: none;
+  }
+
+  .organised-and-partner img {
+    width: 90%;
+    height: auto;
+  }
+
+  .yyFoundation img {
+    width: 400px;
+    height: auto;
+  }
+
+  .tangaza img {
+    width: 250px;
+    height: auto;
+  }
+
+  .ml {
+    margin-left: 0;
+    margin-bottom: 0 !important;
   }
 }
 
@@ -402,6 +458,26 @@ body {
   .organised-and-partner {
     padding: 50px 30px;
   }
+
+  .organised-and-partner img {
+    width: 90%;
+    height: auto;
+  }
+
+  .yyFoundation img {
+    width: 400px;
+    height: auto;
+  }
+
+  .tangaza img {
+    width: 200px;
+    height: auto;
+  }
+
+  .ml {
+    margin-left: 0;
+    margin-bottom: 0 !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -428,5 +504,14 @@ body {
   .cta-section p {
     font-size: 20px;
     width: 100%;
+  }
+
+  .ml {
+    margin-left: 0;
+    margin-bottom: 0 !important;
+  }
+
+  .yyFoundation img {
+    width: 350px;
   }
 }
